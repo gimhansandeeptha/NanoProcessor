@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Aug 18 07:54:17 2022
+# Process ID: 34640
+# Current directory: D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5024 D:\Gimhan Sandeeptha\Gimhan\Semester 02\Computer Organization and Digital Design\Labs\Lab10_new\Lab 10\Lab 10.xpr
+# Log file: D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/vivado.log
+# Journal file: D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/TB_Nano_behav.wcfg}
+source TB_Nano.tcl
+export_ip_user_files -of_objects  [get_files {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/Anode.vhd}}] -no_script -reset -force -quiet
+remove_files  {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/Anode.vhd}}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim

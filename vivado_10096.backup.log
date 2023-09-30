@@ -1,0 +1,236 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Aug 18 07:25:40 2022
+# Process ID: 10096
+# Current directory: D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14708 D:\Gimhan Sandeeptha\Gimhan\Semester 02\Computer Organization and Digital Design\Labs\Lab10_new\Lab 10\Lab 10.xpr
+# Log file: D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/vivado.log
+# Journal file: D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10'
+INFO: [Project 1-313] Project file moved from 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/LAB_PROJECT/Lab10full/Lab 10 full/Lab 10' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 889.219 ; gain = 141.270
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Out_unit.vhd}}] -no_script -reset -force -quiet
+remove_files  {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Out_unit.vhd}}
+update_compile_order -fileset sources_1
+add_files -norecurse -scan_for_includes {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/LAB_PROJECT/Out_unit/Out_unit.srcs/sources_1/imports/new/LUT_16_7.vhd} {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/LAB_PROJECT/Out_unit/Out_unit.srcs/sources_1/new/Out_unit.vhd}}
+import_files -force -norecurse {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/LAB_PROJECT/Out_unit/Out_unit.srcs/sources_1/imports/new/LUT_16_7.vhd} {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab 10/LAB_PROJECT/Out_unit/Out_unit.srcs/sources_1/new/Out_unit.vhd}}
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Nano' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Nano_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/BitShifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity BitShifter
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Bitshiftleft.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Bitshiftleft
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Bitshiftright.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Bitshiftright
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/CMP.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CMP
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Combiner.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Combiner
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Combiner_div.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Combiner_div
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/DFF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DFF
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/Dec_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Dec_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/Dec_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Dec_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Divider_1bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Divider_1bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/INS_DECO2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity INS_DECO2
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Inverter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Inverter
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/imports/sources_1/new/MUX_1_to_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_1_to_2
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/MUX_2_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2_8
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/MUX_2_WAY_4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2_WAY_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_to_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2_to_1
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/imports/sources_1/new/MUX_2_way_4_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2_way_4_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_2_way_8_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2_way_8_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/MUX_2_way_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2_way_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/MUX_4_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_4_8
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/MUX_8_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_8_8
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/MUX_8_way_8_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_8_way_8_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplier
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Mux_8_to_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_to_1
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoProcessor
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorLower.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoProcessorLower
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/new/NanoProcessorUpper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NanoProcessorUpper
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/Out_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Out_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/PROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PROM
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Power.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Power
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Prog_counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Prog_counter
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/RCA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/RCA8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/new/RCA_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/RCA_8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/RegBank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegBank
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/sources_1/new/Reset.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reset
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Reseter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reseter
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/TWISTER.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TWISTER
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/signed_divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity signed_divider
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sources_1/imports/new/validator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity validator
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.srcs/sim_1/new/TB_Nano.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Nano
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 927.465 ; gain = 0.035
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 2fab7e0bb92d4a518f98b8c213cd6021 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Nano_behav xil_defaultlib.TB_Nano -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_WAY_4bit [mux_2_way_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.TWISTER [twister_default]
+Compiling architecture behavioral of entity xil_defaultlib.INS_DECO2 [ins_deco2_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dec_2_to_4 [dec_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dec_3_to_8 [dec_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_8_way_8_bit [mux_8_way_8_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_way_8_bit [mux_2_way_8_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reset [reset_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegBank [regbank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inverter [inverter_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA [rca_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA8bit [rca8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bitshiftleft [bitshiftleft_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bitshiftright [bitshiftright_default]
+Compiling architecture behavioral of entity xil_defaultlib.BitShifter [bitshifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Combiner [combiner_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplier [multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_8bit [rca_8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_way_8bit [mux_2_way_8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Divider_1bit [divider_1bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Combiner_div [combiner_div_default]
+Compiling architecture behavioral of entity xil_defaultlib.Divider [divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.signed_divider [signed_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.validator [validator_default]
+Compiling architecture behavioral of entity xil_defaultlib.Power [power_default]
+Compiling architecture behavioral of entity xil_defaultlib.CMP [cmp_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_8 [mux_2_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_4_8 [mux_4_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_8_8 [mux_8_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Out_unit [out_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.NanoProcessorUpper [nanoprocessorupper_default]
+Compiling architecture behavioral of entity xil_defaultlib.Prog_counter [prog_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_1_to_2 [mux_1_to_2_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_way_4_bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.PROM [prom_default]
+Compiling architecture behavioral of entity xil_defaultlib.NanoProcessorLower [nanoprocessorlower_default]
+Compiling architecture behavioral of entity xil_defaultlib.DFF [dff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reseter [reseter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.NanoProcessor [nanoprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_nano
+Built simulation snapshot TB_Nano_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/Lab 10.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Nano_behav -key {Behavioral:sim_1:Functional:TB_Nano} -tclbatch {TB_Nano.tcl} -view {{D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/TB_Nano_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {D:/Gimhan Sandeeptha/Gimhan/Semester 02/Computer Organization and Digital Design/Labs/Lab10_new/Lab 10/TB_Nano_behav.wcfg}
+source TB_Nano.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Nano_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 964.145 ; gain = 36.871
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 18 07:50:56 2022...

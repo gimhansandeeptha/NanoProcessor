@@ -1,0 +1,65 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 2fab7e0bb92d4a518f98b8c213cd6021 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Nano_behav xil_defaultlib.TB_Nano -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_WAY_4bit [mux_2_way_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.TWISTER [twister_default]
+Compiling architecture behavioral of entity xil_defaultlib.INS_DECO2 [ins_deco2_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dec_2_to_4 [dec_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Dec_3_to_8 [dec_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_8_way_8_bit [mux_8_way_8_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_way_8_bit [mux_2_way_8_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reset [reset_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegBank [regbank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inverter [inverter_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA [rca_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA8bit [rca8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bitshiftleft [bitshiftleft_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bitshiftright [bitshiftright_default]
+Compiling architecture behavioral of entity xil_defaultlib.BitShifter [bitshifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Combiner [combiner_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplier [multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_8bit [rca_8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_way_8bit [mux_2_way_8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Divider_1bit [divider_1bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Combiner_div [combiner_div_default]
+Compiling architecture behavioral of entity xil_defaultlib.Divider [divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.signed_divider [signed_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.validator [validator_default]
+Compiling architecture behavioral of entity xil_defaultlib.Power [power_default]
+Compiling architecture behavioral of entity xil_defaultlib.CMP [cmp_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_8 [mux_2_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_4_8 [mux_4_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_8_8 [mux_8_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Out_unit [out_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.NanoProcessorUpper [nanoprocessorupper_default]
+Compiling architecture behavioral of entity xil_defaultlib.Prog_counter [prog_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_1_to_2 [mux_1_to_2_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_way_4_bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.PROM [prom_default]
+Compiling architecture behavioral of entity xil_defaultlib.NanoProcessorLower [nanoprocessorlower_default]
+Compiling architecture behavioral of entity xil_defaultlib.DFF [dff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reseter [reseter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.NanoProcessor [nanoprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_nano
+Built simulation snapshot TB_Nano_behav
